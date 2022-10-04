@@ -19,7 +19,7 @@ const nameFinder = [
   ];
 function finderName(arr, elem) {
     if (arr.indexOf(elem) != -1) {
-        return true, arr.indexOf(elem)
+        return arr.indexOf(elem)
     } else {
         return false
     }
